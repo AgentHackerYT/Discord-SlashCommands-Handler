@@ -1,5 +1,5 @@
 # Discord-SlashCommands-Handler
-Easy To Use Slash Command Handler made In Discord.js
+Easy To Use Slash Command Handler made In Discord.js v13
 
 # How To Use?
 
