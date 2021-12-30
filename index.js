@@ -27,8 +27,8 @@ console.log("Ready")
 client.on("interactionCreate", (interaction) =>{
     if(!interaction.isCommand()) return;
 
-    fs.readdir(__dirname + "/commands", (err , data1) =>{
-        data1.forEach(data =>{
+    fs.readdir(__dirname + "/commands", (err , files) =>{
+        files.forEach(data =>{
             console.log(data)
       const command = require(`./commands/${data}`)
         if(interaction.commandName == command.name){
